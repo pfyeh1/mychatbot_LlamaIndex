@@ -16,7 +16,7 @@ if "messages" not in st.session_state.keys(): # Initialize the chat message hist
     
 @st.cache_resource(show_spinner = False)
 def load_data():
-    with st.spinner(test = "Loading and indexing docs"):
+    with st.spinner(text = "Loading and indexing docs"):
         reader = SimpleDirectory(input_dir="./data", recursive=True)
         docs = reader.load_data()
         service_context = ServiceContext.from_defaults(llm = OpenAI(
