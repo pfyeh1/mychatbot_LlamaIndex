@@ -24,7 +24,7 @@ def load_data():
                                                             temperature = .5,
                                                             system_prompt = 
                                                            "Your job is to answer questions on the relate to the documents. Keep your answers technical, based on facts, and explain your reasoning."))
-        index = VectoreStoreIndex.from_documents(docs, service_context = service_context)
+        index = VectorStoreIndex.from_documents(docs, service_context = service_context)
         return index
 
 # load data
