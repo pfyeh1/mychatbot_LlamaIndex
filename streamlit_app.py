@@ -1,6 +1,6 @@
 import streamlit as st
-from llama_index import VectoreStoreIndex, ServiceContext, Document
-from llama_index.llms import OpenAi
+from llama_index import VectorStoreIndex, ServiceContext, Document
+from llama_index.llms import OpenAI
 import openai
 from llam_index import SimpleDirectoryReader
 
