@@ -9,12 +9,6 @@ Description of the app ...
 
 Not applicable
 
-## GitHub Codespaces
-
-
-## Section Heading
-
-This is filler text, please replace this with text for this section.
 
 ## Further Reading
 
