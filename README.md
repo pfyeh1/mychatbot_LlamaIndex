@@ -3,16 +3,13 @@
 Sandbox for Building Generative AI Apps
 ```
 
-Description of the app ...
+Sandbox for learning how to build Generative AI apps using Streamlit using /data in git repo
 
 ## Demo App
 
-Not applicable
-
+https://mychatbotllamaindex-dral9efjm2utbydf26dch3.streamlit.app
 
 ## Further Reading
 
 This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+- https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/
